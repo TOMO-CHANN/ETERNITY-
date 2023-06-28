@@ -21,7 +21,7 @@ const lemo = `
 *━『 WE 』━*
 
 *1) [ SURVEY >> CORPS ] :*
-wait haa...
+https://chat.whatsapp.com/K1vfhEePsNYKTkd5KtYRT6
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
   await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  
