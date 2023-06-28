@@ -1,9 +1,9 @@
 require('../../../handler/MessageHandler')
 module.exports = {
 	name: "demote",
-	alias: ["dm"],
+	alias: ["x"],
 	desc: "Demote Admin To Member",
-	react:"✅",
+	react:"⛔️",
 	category: "Group",
 	start: async(client, m, { text, prefix, isBotAdmin,isAdmin,mentionByTag}) => {
 		if(!isAdmin) return client.sendMessage(m.from,{text:"This is admin only command"},{quoted:m})
