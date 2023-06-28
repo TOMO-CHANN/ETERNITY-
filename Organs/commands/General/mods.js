@@ -1,6 +1,6 @@
 module.exports = {
   name: "mods",
-  alias: ["mod"],
+  alias: ["owner"],
   usage: `${global.prefa}mods`,
   desc: "shows mods list",
   category: "General",
