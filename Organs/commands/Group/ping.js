@@ -1,7 +1,7 @@
 require ('../../../settings')
 module.exports = {
 	name: "ping",
-	alias: ["tagall"],
+	alias: ["tag"],
 	desc: "Tags all the members",
     usage:`${prefa}ping / =ping <text>`,
     react:"✅",
