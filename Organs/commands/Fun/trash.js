@@ -1,7 +1,7 @@
 const canvacord = require("canvacord");
 module.exports = {
     name: "trash",
-    alias: ["trash"],
+    alias: ["UUU"],
     usage: `${prefa}trash <mention>`,
     react: "🎉",
     category: "Fun",
