@@ -11,7 +11,7 @@ module.exports = {
             try {
                 img = await client.profilePictureUrl(m.quoted.sender, 'image')
             } catch {
-                img = "https://i.pinimg.com/564x/84/09/12/840912dd744e6662ab211b8070b5d84c.jpg"
+                img = "https://wallpapercave.com/dwp1x/wp10861823.jpg"
             }
             result = await canvacord.Canvacord.shit(img);
         } else if (mentionByTag) {
