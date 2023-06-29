@@ -110,7 +110,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
       var rae = `https://wallpapercave.com/dwp1x/wp12018470.jpg`;
-      let txtt = `*What you doin idiot! Try \nuse *${prefix}help* to see help menu`;
+      let txtt = `*What you doin idiot!* \nTry *${prefix}help* to see help menu`;
       client.sendMessage(m.from, {image:{url:rae}, caption:txtt}, { quoted: m });
     }
 
