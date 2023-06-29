@@ -14,7 +14,7 @@ module.exports = {
 let rae = yup[Math.floor(Math.random() * yup.length)]
 
   
-const eternitylogogg = "https://i.ibb.co/t3Jd1wK/Eternity-6.png"
+const eternitylogogg = "https://wallpapercave.com/dwp1x/wp10861823.jpg"
         
                          
 const lemo = `
