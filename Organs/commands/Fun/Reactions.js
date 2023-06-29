@@ -16,7 +16,7 @@ module.exports = {
   alias: ['r', ...reactions],
   category: 'Fun',
   usage: `${prefa}reaction`,
-  react: '😗',
+  react: '🎋',
   start: async (client, m, { text, prefix, mentionByTag }) => {
     const command = m.body.split(' ')[0].toLowerCase().slice(prefix.length).trim()
     const capitalize = (content) => `${content.charAt(0).toUpperCase()}${content.slice(1)}`
