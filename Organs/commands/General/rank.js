@@ -107,7 +107,7 @@ if (levelRole <= 2) {
 			try {
                     ppuser = await client.profilePictureUrl(m.sender, 'image')
                 } catch {
-                    pppuser = 'https://www.linkpicture.com/q/IMG-20220118-WA0387.png'
+                    pppuser = 'https://wallpapercave.com/dwp1x/wp10709848.jpg'
                     ppuser=await fetchBuffer(pppuser)
 
                 }
