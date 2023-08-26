@@ -11,7 +11,7 @@ module.exports = {
        flags.forEach((flag) => (text = text.replace(flag, '')))
  
        pack = ''
-       author = ''
+       author = '𝐒𝚯𝚮𝐀𝚴'
         
        
            
