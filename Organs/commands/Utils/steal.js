@@ -11,11 +11,11 @@ module.exports = {
         if (!quoted) return m.reply(`❌ Could not find any sticker in context`)
         if (q) {
    anu = args.join(' ').split('|')
-   pack = anu[0] !== '' ? anu[0] : 'UCHIHA'
-   author = anu[1] !== '' ? anu[1] : 'SASUKE'
+   pack = anu[0] !== '' ? anu[0] : ''
+   author = anu[1] !== '' ? anu[1] : ''
    } else {
-       pack = 'UCHIHA'
-       author = 'SASUKE'
+       pack = ''
+       author = ''
        }
 if(/webp/.test(mime)) {
 let media = await quoted.download()
